@@ -122,12 +122,15 @@ const SkillsQA = ({ animation }) => {
         <SkillsShowcaseContainer>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiSelenium />
+            <p>Selenium</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiPostman />
+            <p>Postman</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
-            <UFT width={80} height={80} />
+            <UFT width={70} height={70} />
+            <p>HP UFT</p>
           </SkillsShowcaseItem>
         </SkillsShowcaseContainer>
       </StyledSkillItemContainer>
@@ -145,57 +148,73 @@ const SkillsDev = ({ animation }) => {
         <SkillsShowcaseContainer>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiReact />
+            <p>ReactJS</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiNextdotjs />
+            <p>NextJS</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiGatsby />
+            <p>GasbyJS</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiApollographql />
+            <p>Apollo</p>
           </SkillsShowcaseItem>
         </SkillsShowcaseContainer>
         <SkillsShowcaseContainer>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiStyledcomponents />
+            <p>Styled Components</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <FaSass />
+            <p>Sass</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiMui />
+            <p>Material UI</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiBootstrap />
+            <p>Bootstrap</p>
           </SkillsShowcaseItem>
         </SkillsShowcaseContainer>
         <SkillsShowcaseContainer>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiNodedotjs />
+            <p>NodeJS</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiTypescript />
+            <p>Typescript</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiExpress />
+            <p>ExpressJS</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiNestjs />
+            <p>NestJS</p>
           </SkillsShowcaseItem>
         </SkillsShowcaseContainer>
         <SkillsShowcaseContainer>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiMongodb />
+            <p>MongoDB</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiPostgresql />
+            <p>Postgresql</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiGraphql />
+            <p>Graphql</p>
           </SkillsShowcaseItem>
           <SkillsShowcaseItem variants={CardVariant} whileHover={hoverObj}>
             <SiStrapi />
+            <p>Strapi CMS</p>
           </SkillsShowcaseItem>
         </SkillsShowcaseContainer>
       </StyledSkillItemContainer>

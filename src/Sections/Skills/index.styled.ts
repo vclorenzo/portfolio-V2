@@ -27,9 +27,16 @@ export const SkillsShowcaseContainer = styled(motion.div)`
 `;
 
 export const SkillsShowcaseItem = styled(motion.div)`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
   font-size: 50px;
   height: 100px;
   width: 100px;
+  p {
+    font-size: 15px;
+  }
 
   @media (min-width: 541px) and (max-width: 1024px) {
     font-size: 70px;

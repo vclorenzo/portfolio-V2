@@ -1,5 +1,5 @@
 import React from 'react';
-import pdfFile from '../../assets/SB PLANNER.pdf';
+import pdfFile from '../../assets/Resume_Vanz_Lorenzo.pdf';
 import { PDFContainer } from './index.styled.ts';
 const PDFViewer = () => {
   return (
