@@ -46,7 +46,7 @@ const ContainerVariantL = {
       delay: 1,
 
       ease: 'easeInOut',
-      staggerChildren: 0.3,
+      staggerChildren: 0.1,
       when: 'beforeChildren',
     },
   },
@@ -63,7 +63,7 @@ const ContainerVariantR = {
       delay: 1,
 
       ease: 'easeInOut',
-      staggerChildren: 0.3,
+      staggerChildren: 0.1,
       when: 'beforeChildren',
     },
   },
