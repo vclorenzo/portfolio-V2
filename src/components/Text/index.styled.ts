@@ -1,6 +1,19 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
+export const StyledMainTitleText = styled.h1<{
+	textColor?: string;
+	isCentered?: boolean;
+}>`
+	${(props) =>
+		props.textColor === 'dark'
+			? `color: var(--dark-color);`
+			: `color: var(--light-color);`}
+	${(props) => (props.isCentered ? `text-align: center;` : '')}
+
+  font-size: 60px;
+`;
+
 export const StyledTitleText = styled.h3<{
 	textColor?: string;
 	isCentered?: boolean;
@@ -29,6 +42,12 @@ export const StyledSubtitleText = styled.p`
 	font-size: 35px;
 	@media (max-width: 320px) {
 		font-size: 25px;
+	}
+`;
+export const StyledSubtitleTextSm = styled.p`
+	font-size: 25px;
+	@media (max-width: 320px) {
+		font-size: 20px;
 	}
 `;
 

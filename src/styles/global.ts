@@ -27,6 +27,7 @@ body {
     --primary-color: #f4f4f4;
     --medium-color: #c2c4cb;
     --dark-color: #333;
+    --darkless-color: #444;
 }
 
 

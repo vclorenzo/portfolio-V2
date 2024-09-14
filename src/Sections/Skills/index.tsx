@@ -1,35 +1,34 @@
+import { useAnimation } from 'framer-motion';
 import React, { useEffect } from 'react';
+import { FaSass } from 'react-icons/fa';
+import {
+	SiExpress,
+	SiGatsby,
+	SiGraphql,
+	SiJavascript,
+	SiMongodb,
+	SiMui,
+	SiNextdotjs,
+	SiNodedotjs,
+	SiPostgresql,
+	SiReact,
+	SiRedux,
+	SiStrapi,
+	SiStyledcomponents,
+	SiTypescript,
+} from 'react-icons/si';
+import { useInView } from 'react-intersection-observer';
 import {
 	MasterContainer,
 	StyledSplitContainer,
 	StyledTextContainer,
 } from '../../components/Container/index.styled.ts';
+import { StyledMainText } from '../../components/Text/index.styled.ts';
 import {
 	SkillsShowcaseContainer,
 	SkillsShowcaseItem,
 	StyledSkillItemContainer,
 } from './index.styled.ts';
-import {
-	SiReact,
-	SiNextdotjs,
-	SiGatsby,
-	SiTypescript,
-	SiStyledcomponents,
-	SiMui,
-	SiNodedotjs,
-	SiExpress,
-	SiMongodb,
-	SiPostgresql,
-	SiGraphql,
-	SiStrapi,
-	SiRedux,
-	SiJavascript,
-} from 'react-icons/si';
-import { FaSass } from 'react-icons/fa';
-import { StyledMainText } from '../../components/Text/index.styled.ts';
-import UFT from '../../assets/svg/UFT.tsx';
-import { useAnimation } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 
 const ContainerVariantL = {
 	hidden: { x: '-100%', opacity: 0 },

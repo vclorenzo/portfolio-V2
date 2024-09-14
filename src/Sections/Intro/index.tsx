@@ -1,8 +1,8 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import {
+	StyledMainTitleText,
 	StyledSubtitleText,
-	StyledTitleText,
 } from '../../components/Text/index.styled.ts';
 import { VideoBg } from './index.styled.ts';
 import Video from '../../assets/bokeh.mp4';
@@ -19,9 +19,9 @@ const Intro = () => {
 			<StyledContentContainer id="intro">
 				<VideoBg autoPlay loop muted src={Video} typeof="video/mp4" />
 				<StyledTextContainer isCentered={true}>
-					<StyledTitleText>
-						<h1>Vanz Lorenzo</h1>
-					</StyledTitleText>
+					<StyledMainTitleText isCentered={true}>
+						Vanz Lorenzo
+					</StyledMainTitleText>
 					<StyledSubtitleText>I specialize in</StyledSubtitleText>
 					<StyledSubtitleText>
 						<Typewriter
