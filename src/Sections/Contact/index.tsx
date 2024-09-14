@@ -80,7 +80,7 @@ const Contact = () => {
 									type="text"
 									required
 									placeholder="Enter Full Name"
-									// value={values.email}
+									value={form.name}
 									onChange={handleChange}
 								/>
 								<label htmlFor="email">Email</label>
@@ -90,7 +90,7 @@ const Contact = () => {
 									type="email"
 									required
 									placeholder="Enter Email"
-									// value={values.email}
+									value={form.email}
 									onChange={handleChange}
 								/>
 								<label htmlFor="message">Message</label>
@@ -100,7 +100,7 @@ const Contact = () => {
 									required
 									placeholder="Enter Message"
 									rows={5}
-									// value={values.email}
+									value={form.message}
 									onChange={handleChange}
 								/>
 								<div
