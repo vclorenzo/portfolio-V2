@@ -28,7 +28,7 @@ const About = () => {
 						<StyledTitleText textColor={'dark'}>About Me</StyledTitleText>
 						<SpecialTextContainer>
 							<StyledTextSp>
-								Hi! my name is Vanz. I am a Software engineer with over 4 years
+								Hi! my name is Vanz. I am a Software engineer with over 5 years
 								of experience in the industry. My expertise primarily focuses in
 								Frontend Development and Software Automation, along with a
 								familiar understanding of Backend Development. Continuously

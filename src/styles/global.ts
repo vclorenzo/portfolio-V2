@@ -1,6 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
 import BackgroundImage from '../assets/CityLights.jpg';
-// import BackgroundImage from '../components/assets/pictures/CityLights.jpg';
 
 const GlobalStyle = createGlobalStyle`
 

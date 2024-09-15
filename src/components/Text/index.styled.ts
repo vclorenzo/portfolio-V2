@@ -40,6 +40,7 @@ export const StyledMainText = styled(motion.h2)`
 
 export const StyledSubtitleText = styled.p`
 	font-size: 35px;
+	text-align: center;
 	@media (max-width: 320px) {
 		font-size: 25px;
 	}

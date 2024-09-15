@@ -28,6 +28,30 @@ import {
 	StyledTitleText,
 } from '../../components/Text/index.styled.ts';
 
+import GraphsImg from '../../assets/Data-Analytics.jpg';
+
+const links = [
+	{
+		name: 'Inventory Management App',
+		url: 'https://master.df9wpu1secyh3.amplifyapp.com/',
+		image: GraphsImg,
+	},
+];
+
+const ProjectSlide = ({ name, url, image }) => {
+	return (
+		<ProjectItemContainer>
+			<a href={url} target="_blank" rel="noopener noreferrer">
+				<StyledCards bgImage={image}>
+					<StyledCardsFx>
+						<StyledSubtitleText>{name}</StyledSubtitleText>
+					</StyledCardsFx>
+				</StyledCards>
+			</a>
+		</ProjectItemContainer>
+	);
+};
+
 const Projects = () => {
 	return (
 		<MasterContainer id="projects" withPadding={true}>
@@ -43,36 +67,18 @@ const Projects = () => {
 						slidesPerView={1}
 						navigation
 						pagination={{ clickable: true }}
-						autoplay={{ delay: 5000, disableOnInteraction: false }}
-						loop={true}
+						// autoplay={{ delay: 5000, disableOnInteraction: false }}
+						// loop={true}
 					>
-						<SwiperSlide>
-							<ProjectItemContainer>
-								<StyledCards>
-									<StyledCardsFx>
-										<StyledSubtitleText>Coming Soon</StyledSubtitleText>
-									</StyledCardsFx>
-								</StyledCards>
-							</ProjectItemContainer>
-						</SwiperSlide>
-						<SwiperSlide>
-							<ProjectItemContainer>
-								<StyledCards>
-									<StyledCardsFx>
-										<StyledSubtitleText>Coming Soon</StyledSubtitleText>
-									</StyledCardsFx>
-								</StyledCards>
-							</ProjectItemContainer>
-						</SwiperSlide>
-						<SwiperSlide>
-							<ProjectItemContainer>
-								<StyledCards>
-									<StyledCardsFx>
-										<StyledSubtitleText>Coming Soon</StyledSubtitleText>
-									</StyledCardsFx>
-								</StyledCards>
-							</ProjectItemContainer>
-						</SwiperSlide>
+						{links.map((link) => (
+							<SwiperSlide key={link.name}>
+								<ProjectSlide
+									name={link.name}
+									url={link.url}
+									image={link.image}
+								/>
+							</SwiperSlide>
+						))}
 					</Swiper>
 				</StyledProjectContentContainer>
 			</StyledContentContainer>
