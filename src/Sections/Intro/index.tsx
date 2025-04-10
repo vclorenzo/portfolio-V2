@@ -15,8 +15,8 @@ import {
 
 const Intro = () => {
 	return (
-		<MasterContainer>
-			<StyledContentContainer id="intro">
+		<MasterContainer id="intro">
+			<StyledContentContainer>
 				<VideoBg autoPlay loop muted src={Video} typeof="video/mp4" />
 				<StyledTextContainer isCentered={true}>
 					<StyledMainTitleText isCentered={true}>

@@ -23,7 +23,7 @@ const About = () => {
 				<StyledItemContainer>
 					<Lottie animationData={animationData} />
 				</StyledItemContainer>
-				<StyledItemContainer isExtended={true}>
+				<StyledItemContainer>
 					<StyledTextContainer>
 						<StyledTitleText textColor={'dark'}>About Me</StyledTitleText>
 						<SpecialTextContainer>
@@ -34,14 +34,9 @@ const About = () => {
 								Backend Development. Continuously learning new technologies.
 							</StyledTextSp>
 						</SpecialTextContainer>
-						<Link
-							to={'/profile'}
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ display: 'inline-block', maxWidth: '150px' }}
-						>
-							<StyledDarkButton>View My CV</StyledDarkButton>
-						</Link>
+						<a href={'/profile'} style={{ width: 'fit-content' }}>
+							<StyledDarkButton>View Projects</StyledDarkButton>
+						</a>
 					</StyledTextContainer>
 				</StyledItemContainer>
 			</StyledSplitContainer>

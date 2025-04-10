@@ -53,8 +53,8 @@ const Contact = () => {
 	};
 
 	return (
-		<MasterContainer bgColor={'#333'} withPadding={true}>
-			<StyledSplitContainer isFullScreen={false} isGapped={true} id="contact">
+		<MasterContainer id="contact" bgColor={'#333'} withPadding={true}>
+			<StyledSplitContainer isFullScreen={false} isGapped={true}>
 				<StyledItemContainer>
 					<StyledTextContainer>
 						<StyledTitleText>Let's Connect</StyledTitleText>

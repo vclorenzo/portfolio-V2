@@ -19,6 +19,7 @@ export const MasterContainer = styled.div<{
 			: ''}
   position: relative;
 	overflow: hidden;
+	padding-top: 10rem;
 `;
 
 export const StyledContentContainer = styled.div<{
@@ -60,13 +61,8 @@ export const StyledSplitContainer = styled.div<{
 
 export const StyledItemContainer = styled.div<{ isExtended?: boolean }>`
 	width: 100%;
-	${(props) => (props.isExtended ? `height: 120vh;` : `height: 100vh;`)}
 	display: grid;
 	align-items: center;
-
-	@media (max-width: 540px) {
-		height: 80vh;
-	}
 `;
 
 export const StyledTextContainer = styled.div<{ isCentered?: boolean }>`
