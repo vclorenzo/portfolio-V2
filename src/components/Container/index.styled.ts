@@ -18,8 +18,8 @@ export const MasterContainer = styled.div<{
   padding-bottom: 70px;`
 			: ''}
   position: relative;
-	overflow: hidden;
-	height: 100vh;
+	/* overflow: hidden;
+	height: 100vh; */
 	/* padding-top: 10rem; */
 `;
 

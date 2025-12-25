@@ -38,7 +38,13 @@ const links = [
 	},
 ];
 
-const ProjectSlide = ({ name, url, image }) => {
+type ProjectSlideProps = {
+	name: string;
+	url: string;
+	image: string;
+};
+
+const ProjectSlide = ({ name, url, image }: ProjectSlideProps) => {
 	return (
 		<ProjectItemContainer>
 			<a href={url} target="_blank" rel="noopener noreferrer">
