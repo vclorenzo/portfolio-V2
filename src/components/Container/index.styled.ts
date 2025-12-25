@@ -19,7 +19,8 @@ export const MasterContainer = styled.div<{
 			: ''}
   position: relative;
 	overflow: hidden;
-	padding-top: 10rem;
+	height: 100vh;
+	/* padding-top: 10rem; */
 `;
 
 export const StyledContentContainer = styled.div<{
@@ -42,7 +43,7 @@ export const StyledSplitContainer = styled.div<{
 	isReversed?: boolean;
 }>`
 	display: flex;
-	/* height: 100vh; */
+	height: 100%;
 	${(props) => (props.isFullScreen ? '' : `max-width: 1176px;`)}
 	${(props) => (props.isGapped ? `grid-gap: 3rem;` : '')}
   margin: 0 auto;

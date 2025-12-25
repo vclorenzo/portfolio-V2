@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
 	return (
 		<MasterContainer bgImage={bgImage} withPadding={true}>
-			<StyledSplitContainer isFullScreen={false} isGapped={true} id="about">
+			<StyledSplitContainer isGapped={true} id="about">
 				<StyledItemContainer>
 					<Lottie animationData={animationData} />
 				</StyledItemContainer>
